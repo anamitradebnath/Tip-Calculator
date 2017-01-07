@@ -14,6 +14,7 @@ The following **required** functionality is complete:
 * [ ] PHP code sets reasonable default values for the form.
 * [ ] PHP code confirms the presence and correct format of submitted values.
 
+NOTE: The app is not working properly. Even though the UI is fine, the interaction between the front-end and the back-end is not happening properly.
 
 Describe any challenges encountered while building the app.
 
