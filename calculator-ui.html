@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous">  	
+  	</script>
+
+	<script>			
+
+  			$(document).ready(function(){
+  				$("#mainForm").submit(function(){
+  					$.ajax({
+  						method: "POST",
+  						url:"tipCalc-1.php",
+  						data:{
+  							billAmount: $("#totalBill").val()  							
+  						},
+  						success: function(data){  							
+  							$("#tip").html(data['tipAmount']);
+  							$("total").html(data['totalAmoun']);
+  							return false;
+  						}
+  					});
+  				});
+  			});
+
+
+	</script>
+
+</head>
+<body>
+	<div id="mainArea">
+		<span><h1>Tip Calculator</h1></span> </br> </br>
+		
+		<form id="mainForm">
+			Bill Subtotal: $ <input type="text" name="totalBill" id="totalBill"> </br>
+			Tip Percentage: </br>
+			<input type="radio" class="tipPercent" name="tipPercent" value="ten">10%
+			<input type="radio" class="tipPercent" name="tipPercent" value="fifteen" >15%
+			<input type="radio" class="tipPercent" name="tipPercent" value="twenty" checked="checked">20%
+			</br>
+			<input type="submit" name="calculateTipAmount" value="Submit">
+
+		</form>
+		</br>
+		</br>
+
+		<div id="showResult" >
+			Tip: $<span id="tip"></span> </br>
+			Total: $<span id="total"></span>			
+		</div>
+
+	</div>
+
+</body>
+
+</html>
