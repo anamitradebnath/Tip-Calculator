@@ -4,7 +4,7 @@
 
 Submitted by: **Anamitra Debnath**
 
-Time spent: **20** hours spent in total
+Time spent: **24** hours spent in total
 
 ## User Stories
 
@@ -13,10 +13,9 @@ The following **required** functionality is complete:
 * [ ] Tip percentage choices use a PHP loop to output three radio buttons.
 * [ ] PHP code sets reasonable default values for the form.
 * [ ] PHP code confirms the presence and correct format of submitted values.
+* [ ] Page indicates any form errors which need to be fixed.
+* [ ] Submitted form values are retained when errors or results are shown.
 
-NOTE: The app is not working properly. Even though the UI is fine, the interaction between the front-end and the back-end is not happening properly.
-
-Describe any challenges encountered while building the app.
 
 ## License
 
