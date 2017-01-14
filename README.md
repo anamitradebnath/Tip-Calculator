@@ -1,4 +1,4 @@
-# Pre-work - *Tip Calculator*
+# CodePath Course: Web Security Pre-work assignment - *Tip Calculator*
 
 **Tip Calculator** is a tip calculator PHP page.
 
