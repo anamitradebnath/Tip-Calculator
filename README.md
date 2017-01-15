@@ -16,6 +16,10 @@ The following **required** functionality is complete:
 * [ ] Page indicates any form errors which need to be fixed.
 * [ ] Submitted form values are retained when errors or results are shown.
 
+## Steps to execute the program
+1. download all the files into the web server's root directory (note: if you're using xampp, then put the files inside: xampp/htdocs/dashboard - for windows and xampp/htdocs/ - for mac)
+2. start the server
+3. open browser and give the path to the calc.php file (ex: http://localhost/calc.php)
 
 ## License
 
