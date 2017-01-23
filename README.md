@@ -1,6 +1,6 @@
 # CodePath Course: Web Security Pre-work assignment - *Tip Calculator*
 
-**Tip Calculator** is a tip calculator PHP page.
+**Tip Calculator** is a tip calculator PHP page (used PHP in the back-end and HTML/CSS/Javascript/JQuery/AJAX in the front-end)
 
 Submitted by: **Anamitra Debnath**
 
