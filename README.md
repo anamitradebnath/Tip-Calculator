@@ -25,7 +25,7 @@ The following **required** functionality is complete:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://i.imgur.com/qJLDH8L.gif" width="350" height="600" alt="Video Walkthrough" />
+<img src="http://i.imgur.com/qJLDH8L.gif" width="350" height="400" alt="Video Walkthrough" />
 
 ## License
 
