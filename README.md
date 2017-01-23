@@ -21,6 +21,12 @@ The following **required** functionality is complete:
 2. start the server
 3. open browser and give the path to the calc.php file (ex: http://localhost/calc.php)
 
+## Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+<img src="http://i.imgur.com/qJLDH8L.gif" width="350" height="600" alt="Video Walkthrough" />
+
 ## License
 
     Copyright [2017] [Anamitra Debnath]
